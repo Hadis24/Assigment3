@@ -8,12 +8,12 @@ module "acm" {
   validation_method = "DNS"
 
   subject_alternative_names = [
-    "Hadis-assigment3.${data.aws_route53_zone.appstellar-training.name}"
+    "hadis-assigment3.${data.aws_route53_zone.appstellar-training.name}"
   ]
 
   wait_for_validation = true
 
   tags = {
-    Name = "Hadis-assigment3.${data.aws_route53_zone.appstellar-training.name}"
+    Name = "hadis-assigment3.${data.aws_route53_zone.appstellar-training.name}"
   }
 }

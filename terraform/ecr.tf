@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "this" {
-  name                 = "Hadis-assigment3"
+  name                 = "hadis-assigment3"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {

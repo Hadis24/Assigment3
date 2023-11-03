@@ -4,7 +4,7 @@ data "aws_route53_zone" "appstellar-training" {
 
 resource "aws_route53_record" "www" {
   zone_id = data.aws_route53_zone.appstellar-training.zone_id
-  name    = "Hadis-assigment3.${data.aws_route53_zone.appstellar-training.name}"
+  name    = "hadis-assigment3.${data.aws_route53_zone.appstellar-training.name}"
   type    = "A"
   ttl     = 300
   records = ["8.8.8.8"]
