@@ -14,6 +14,6 @@ module "acm" {
   wait_for_validation = true
 
   tags = {
-    Name = "hadis-assigment3.${data.aws_route53_zone.appstellar-training.name}"
+    Name = "hadis-assigment3.appstellar.training"
   }
 }
