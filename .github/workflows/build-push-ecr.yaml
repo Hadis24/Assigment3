@@ -2,6 +2,8 @@ name: build-push-ecr
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ "main" ]
 
 env:
   IMAGE_NAME: hadis-assigment3
