@@ -8,7 +8,7 @@ image:
   repository: 313422618945.dkr.ecr.eu-central-1.amazonaws.com/hadis-assigment3
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: bec604eed53cea6e939179fbb0cf9a8f69da37d8
+  tag: 3543c3b0d8b2b11e3d5b06004fdb624f649de1a2
 
 imagePullSecrets: []
 nameOverride: ""
