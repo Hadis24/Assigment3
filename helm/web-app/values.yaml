@@ -48,7 +48,6 @@ ingress:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:eu-central-1:313422618945:certificate/77d3aa00-10e8-4188-96bd-7a73d74fd451
-    alb.ingress.kubernetes.io/tags: Name=devops-training, Environment=dev
     alb.ingress.kubernetes.io/group.name: devops-training
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
     alb.ingress.kubernetes.io/ssl-redirect: '443'
